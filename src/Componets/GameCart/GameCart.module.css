@@ -1,0 +1,42 @@
+
+::-webkit-scrollbar {
+  /* chrome based */
+  width: 0px; /* ширина scrollbar'a */
+  background: transparent; /* опционально */
+}
+.img{
+    /* display: flex; */
+    width: 450px;
+    height: 100%;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+
+}
+.title_game{
+    display: flex;
+    border: 2px solid white;
+    /* padding: 25px 10px; */
+}
+.desc{
+    color: aliceblue;
+    height: 80px;
+    width: 550px;
+    position: relative;
+    top: 20px;
+    margin-left: 20px;    
+}
+.cat{
+    margin-top: 20px;
+
+}
+.icon{
+    font-size: 50px;
+    color: red;
+    /* padding-left:65px ; */
+    position: absolute;
+    right:120px;
+}
+.icon:hover{
+    cursor: pointer;
+}
+

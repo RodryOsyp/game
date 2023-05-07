@@ -1,0 +1,28 @@
+.content {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2,1fr);
+  border-radius: 15px;
+  width: 90%;
+  margin: 0 auto;
+  height: 80vh;
+  /* padding-left:1200px ; */
+  overflow: auto;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 0px 30px -9px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 0px 0px 30px -9px rgba(255, 255, 255, 1);
+  box-shadow: 0px 0px 30px -9px rgba(255, 255, 255, 1);
+  padding: 10px;
+}
+::-webkit-scrollbar { /* chrome based */
+  width: 0px;  /* ширина scrollbar'a */
+  background: transparent;  /* опционально */
+}   
+
+@media screen and (max-width: 992px) {
+  .content{
+    grid-template-columns: repeat(1,1fr);
+    width: 70%;
+  
+  }  
+}
