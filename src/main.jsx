@@ -7,6 +7,7 @@ import Home from "./Pages/homePage/Home";
 import Cart from "./Pages/cartPage/Cart";
 import Login from "./Pages/loginPage/Login";
 import Game from "./Componets/Game/Game";
+import ErrorPage from "./Componets/Error/ErrorPage";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/game",
     element: <Game />,
+  },
+  {
+    path: "/error",
+    element: <ErrorPage />,
   },
 ]);
 

@@ -6,6 +6,7 @@ export const useGameStore = create((set, get) => ({
   allGames: [],
   addedGames: [],
   total: 0,
+  selectionGame: null,
   fetchGames: async () => {
     const response = await fetch("http://localhost:3000/games");
     set({ allGames: await response.json() });
@@ -23,10 +24,12 @@ export const useGameStore = create((set, get) => ({
   },
   removeGame: (gameId) => {
     set((state) => ({
-      addedGames: state.addedGames.filter((addedGame) => addedGame.id !== gameId)
+      addedGames: state.addedGames.filter(
+        (addedGame) => addedGame.id !== gameId
+      ),
     }));
     get().calculateTotal();
-  },  
+  },
   calculateTotal: () => {
     const totalPrice = get().addedGames.reduce(
       (total, game) => total + parseFloat(game.price),
@@ -34,6 +37,11 @@ export const useGameStore = create((set, get) => ({
     );
     set({ total: totalPrice });
   },
+  setSelected: (newGame) => {
+    set((state) => ({ selectionGame: newGame }));
+    console.log(get().selectionGame);
+  },
+  //  game => set(selectionGame : game)
 
   // let sum = 0;
   // arr.forEach(function(item) {

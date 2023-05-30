@@ -3,7 +3,7 @@
 {
     "games": [
       {
-        "title": "CS:GO",
+        "title": "Counter-Strike: Global Offensive",
         "price": "15",
         "id" : "0",
         "description": "Counter-Strike: Global Offensive - розрахована на багато користувачів комп'ютерна гра, розроблена компаніями Valve і Hidden Path Entertainment. Випуск гри для персональних комп'ютерів на операційних системах Windows і macOS, а також ігрових приставках Xbox 360",
@@ -23,24 +23,42 @@
         "id" : "1",
         "description": "Crossout — комп'ютерна розрахована на багато користувачів онлайн-гра в жанрі постапокаліптичного екшену з виглядом від третьої особи. Основу гри складають сесійні PvP-битви на бронеавтомобілях, зібраних самими гравцями.",
         "img": "https://cdn.akamai.steamstatic.com/steam/apps/386180/capsule_616x353.jpg?t=1671084159",
+        "images": [
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/386180/ss_ee535a665ec862c606c79bc25803ae82d4684630.1920x1080.jpg?t=1684997709",
+          "https://crossout.net/i/youtube1.jpg",
+          "https://cdn.cloudflare.steamstatic.com/steam/apps/386180/ss_8cdee148150ccbd26d1d6c3520360a8009c0909a.1920x1080.jpg?t=1684997709",
+          "https://store-images.s-microsoft.com/image/apps.10651.64275037031620855.d7272b35-f14e-4fce-b105-6a69e19b0adc.1414cd7d-cab5-4770-b9ba-7db8a7f0595d?q=90&w=480&h=270"
+        ],
         "category": "shooter",
         "video" : "https://youtu.be/wMS_mdMg6xo"
       },
       {
-        "title": "NFS",
+        "title": "Need for Speed",
         "price": "25",
         "id" : "2",
         "description": "Need for Speed ​​(з англ. «Жага швидкості»; скорочення NFS) — серія гоночних комп'ютерних ігор, що випускаються компанією Electronic Arts і розроблених у кількох студіях, включаючи канадське відділення EA Black Box, британські компанії Criterion Games і Codemasters, а також шведську Ghost Games. На даний час розробляється під брендом EA Sports.",
         "img": "https://cdn.akamai.steamstatic.com/steam/apps/1222680/capsule_616x353.jpg?t=1667318479",
+        "images": [
+          "https://image.api.playstation.com/vulcan/ap/rnd/202210/3121/XemhVDBuAEVrQXUkJF57ZsdX.jpg",
+          "https://assetsio.reedpopcdn.com/need-for-speed-heat-review-a-slight-return-to-form-for-the-series-1573199910704.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+          "https://assetsio.reedpopcdn.com/need-for-speed-heat-review-a-slight-return-to-form-for-the-series-1573199910704.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+          "https://img.ktc.ua/img/base/1/2/267232.jpg"
+        ],
         "category": "Racing",
         "video" : "https://youtu.be/jkMftZP9dxc"
     },
     {
-        "title": "Battlefield",
+        "title": "Battlefield 2042",
         "price": "60",
         "id" : "3",
         "description": "Battlefield V — мультиплатформна гра в жанрі шутера від першої особи, шістнадцята за рахунком у серії ігор Battlefield. Розроблена компанією EA DICE та видана Electronic Arts для платформ Windows, PlayStation 4 та Xbox One. Гра була анонсована 16 травня 2018, а вперше показана 23 травня 2018[2][3]. Вихід гри відбувся 20 листопада 2018[4]. Гравці, які оформили попереднє замовлення на Deluxe-видання гри, отримали доступ до неї за п'ять днів до офіційного релізу — 15 листопада 2018 року[5]. Для гравців з преміум-підпискою гра стала доступною 9 листопада 2018[6]. Battlefield V заснована на подіях Другої світової війни та є тематичним продовженням Battlefield 1.",
         "img": "https://media.contentapi.ea.com/content/dam/battlefield/battlefield-2042/homepage/common/bf-2042-section-bg-homepage-hero-keyart-xl.jpg.adapt.320w.jpg",
+        "images": [
+          "https://image.api.playstation.com/vulcan/img/rnd/202111/0819/JXC0Pg7tAtNl4Q2H3hUNOcTL.png",
+          "https://3dnews.ru/assets/external/illustrations/2021/11/18/1054076/Battlefield_2042_review_1.jpg",
+          "https://media.contentapi.ea.com/content/dam/battlefield/battlefield-2042/common/season-04/season-page/bf-2042-season4-sectionbg-top-xl.jpg.adapt.320w.jpg",
+          "https://yourgamestracker.com/wp-content/uploads/2023/02/Classes-Battlefield-2042-1.jpg"
+        ],
         "category": "shooter",
         "video" : "https://youtu.be/d-uSZJQzlT0"
     },
@@ -50,6 +68,12 @@
       "id" : "4",
       "description": "На базі Football™ EA SPORTS™ FIFA 22 ще більше наближає гру до реальності завдяки значним покращенням ігрового процесу та новому сезону нових функцій у всіх режимах. Ігрові інновації у FIFA 22 забезпечують стабільнішу поведінку між стійками завдяки перепрограмованим воротарям, які виявляють більше холоднокровності на найважливішій позиції на полі, новій фізиці м’яча, вибуховому спринту, який точно відображає прискорення найшвидших гравців, і новій тактиці атаки, яка ставить вас повністю контролювати стиль гри вашої команди. Режим кар'єри допоможе вам реалізувати свою мрію створити футбольний клуб, керувати ним і вести його до слави. VOLTA FOOTBALL винагороджує вас за те, що ви демонструєте свій стиль у новій інтерпретації вуличного футболу, надаючи вам нові способи гри та прогресу кожного сезону. Зберіть команду в Pro Clubs завдяки покращеній настройці команди та оновленій системі прогресу, яка допоможе вам стежити за розвитком вашого віртуального Pro. Зустріньтеся з деякими з найулюбленіших гравців знову як FUT Heroes у FIFA Ultimate Team™, яка змінила структуру змагань, щоб вам було легше перевіряти свої навички проти інших гравців. Яким би не був ваш стиль гри, ви зможете насолоджуватися неперевершеною автентичністю в кожному аспекті з понад 17 000 гравців, понад 700 команд і понад 30 ліг, таких як Ліга чемпіонів УЄФА. який змінив структуру змагань, щоб вам було легше перевіряти свої навички проти інших гравців. Яким би не був ваш стиль гри, ви зможете насолоджуватися неперевершеною автентичністю в кожному аспекті з понад 17 000 гравців, понад 700 команд і понад 30 ліг, таких як Ліга чемпіонів УЄФА. який змінив структуру змагань, щоб вам було легше перевіряти свої навички проти інших гравців. Яким би не був ваш стиль гри, ви зможете насолоджуватися неперевершеною автентичністю в кожному аспекті з понад 17 000 гравців, понад 700 команд і понад 30 ліг, таких як Ліга чемпіонів УЄФА.",
       "img": "https://i.ytimg.com/vi/3zqcvGR0zAg/maxresdefault.jpg",
+      "images": [
+        "https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-mobile/season-5/global_assets/images/2023/03/fifa-mobile-grid-tile-season-5-16x9-1.jpg.adapt.crop16x9.1023w.jpg",
+        "https://www.ixbt.com/img/n1/news/2022/4/3/fifa-22_large.jpg",
+        "https://www.ixbt.com/img/n1/news/2022/4/3/fifa-22_large.jpg",
+        "https://games.24tv.ua/resources/photos/news/202209/2162068.jpg?v=1663742069000&w=1200&h=675&fit=cover&output=webp&q=50"
+      ],
       "category": "Fotball",
       "video" : "https://youtu.be/o1igaMv46SY"
     },
@@ -59,6 +83,12 @@
       "id" : "5",
       "description": "Hitman – серія комп'ютерних ігор у жанрі стелс-екшен, доступна на багатьох сучасних платформах. Дія розвивається навколо професійного клона-кілера, відомого під кодовим ім'ям Агент 47. Серія розробляється IO Interactive, незалежною датською компанією.",
       "img":"https://cdn.cloudflare.steamstatic.com/steam/apps/6860/capsule_616x353.jpg?t=1667311083.png",
+      "images": [
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/header.jpg?t=1667311083",
+        "https://cdn.cloudflare.steamstatic.com/steam/apps/6860/0000001411.1920x1080.jpg?t=1667311083",
+        "https://s3.amazonaws.com/retronauts-www/assets/editorial/2019/01/165622-hitman-blood-money-windows-screenshot-exotic-and-stunning.jpg",
+        "https://hitmanforum-v6-s3-uploads.s3.dualstack.us-west-1.amazonaws.com/original/3X/7/a/7a4fe0eb728085383bb85747a499d369cc877100.jpeg"
+      ],
       "category": "shooter",
       "video" : "https://youtu.be/kA2jPCTHXhs"
     },
@@ -68,6 +98,12 @@
       "id" : "6",
       "description": "Mortal Kombat 11 — бойова відеогра 2019 рокурозроблена NetherRealm Studios і видана Warner Bros. Interactive Entertainment . Це одинадцята основна частина франшизи Mortal Kombat і продовження Mortal Kombat X 2015 року . Гру було анонсовано на The Game Awards 2018 і випущено в Північній Америці та Європі 23 квітня 2019 року для Microsoft Windows , Nintendo Switch , PlayStation 4 і Xbox One — за винятком європейської версії Switch, яка була випущена 10 травня. , 2019. [8] Він був випущений на Stadia19 листопада 2019 р. [9] Гра працює на сильно модифікованій версії Unreal Engine 3.",
       "img": "https://root-nation.com/wp-content/uploads/2020/06/mortal-kombat-11-aftermath-title.jpg",
+      "images": [
+        "https://root-nation.com/wp-content/uploads/2020/06/mortal-kombat-11-aftermath-2.jpg",
+        "https://images.prom.ua/2392500847_w640_h640_2392500847.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3oApJIRh-0gYgAcNdZScB5B_c6omSgrg-mg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRAFx12zvtppRlFNVfDbTX9-Z60aU0_WWncA&usqp=CAU"
+      ],
       "category": "shooter",
       "video" : "https://youtu.be/L3roVUcqB6w"
     },
@@ -77,6 +113,12 @@
       "id" : "7",
       "description": "Grand Theft Auto V не просто гра – це легенда!Знайомтесь: Лос-Сантос. Яскравий і сонячний мегаполіс-притулок самопроголошених гуру, пустоголових старлеток і легендарних, але вже старіючих знаменитостей, що всіма силами намагаються залишитися на плаву в еру економічної нестабільності і дешевих реаліті-шоу.",
       "img": "https://itc.ua/wp-content/uploads/2020/05/gtav.jpg",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJLgVOqcxDGe12bNf8JCo7HlCePo36r9GIAQ&usqp=CAU",
+        "https://i.ytimg.com/vi/foUaOCzfIRU/maxresdefault.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9QBtxIffytpIQvWjCWGAcFutZrWxeFPaGtg&usqp=CAU",
+        "https://i.ytimg.com/vi/VNbONMSObfs/maxresdefault.jpg"
+      ],
       "category": "shooter",
       "video" : "https://youtu.be/VjZ5tgjPVfU"
     }

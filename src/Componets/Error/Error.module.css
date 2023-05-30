@@ -1,0 +1,41 @@
+
+.error{
+    height: 100vh;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+.errorText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: red;
+}
+.four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four img{
+    width: 200px;
+    height: 200px;
+}
+.four2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four2 img{
+    width: 200px;
+    height: 200px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    width: 200px;
+    height: 200px;
+}

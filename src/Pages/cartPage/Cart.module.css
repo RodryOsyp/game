@@ -46,7 +46,7 @@ img{
 }
 .icon{
     font-size: 50px;
-    color: red;
+    color: rgb(255, 0, 0);
     /* padding-left:65px ; */
     position: absolute;
     right:5px;

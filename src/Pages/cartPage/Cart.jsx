@@ -6,16 +6,17 @@ import { useGameStore } from "../../store";
 import GameCart from "../../Componets/GameCart/GameCart";
 import { Link } from "react-router-dom";
 
-const game = {
-  title: "CS:GO",
-  price: "15",
-  id: "0",
-  description:
-    "Counter-Strike: Global Offensive - розрахована на багато користувачів комп'ютерна гра, розроблена компаніями Valve і Hidden Path Entertainment. Випуск гри для персональних комп'ютерів на операційних системах Windows і macOS, а також ігрових приставках Xbox 360",
-  img: "http://media.steampowered.com/apps/csgo/blog/images/fb_image.png?v=6",
-  category: "shooter",
-  video: "https://youtu.be/edYCtaNueQY",
-};
+// const gamer = {
+//   title: "Counter-Strike: Global Offensive",
+//   price: "15",
+//   id: "0",
+//   description:
+//     "Counter-Strike: Global Offensive - розрахована на багато користувачів комп'ютерна гра, розроблена компаніями Valve і Hidden Path Entertainment. Випуск гри для персональних комп'ютерів на операційних системах Windows і macOS, а також ігрових приставках Xbox 360",
+//   img: "http://media.steampowered.com/apps/csgo/blog/images/fb_image.png?v=6",
+//   category: "shooter",
+//   video: "https://youtu.be/edYCtaNueQY",
+// };
+
 const Cart = () => {
   const addedGames = useGameStore((state) => state.addedGames);
   const allgames = addedGames.map((game) => (

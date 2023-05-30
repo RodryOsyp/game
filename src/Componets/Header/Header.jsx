@@ -7,7 +7,7 @@ import { useGameStore } from "../../store";
 
 const Header = () => {
   const total = useGameStore((state) => state.total)
-  console.log(total);
+  // console.log(total);
   // const [Counter,setCounter] = useState()
   return (
     <header className={style.header}>

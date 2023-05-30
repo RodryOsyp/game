@@ -2,7 +2,12 @@ import React from "react";
 import style from "./Game.module.css";
 import YouTube from "react-youtube";
 import { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { Navigate, useLocation } from "react-router-dom";
+import { HiBackspace } from "react-icons/hi";
+import { Link } from "react-router-dom";
+import { useGameStore } from "../../store";
+// import ImageGallery from "react-image-gallery";
+
 
 const opts = {
   height: "256",
@@ -10,6 +15,7 @@ const opts = {
   playerVars: {
     // https://developers.google.com/youtube/player_parameters
     autoplay: 1,
+
     controls: 0,
     mute: 1,
   },
@@ -33,39 +39,56 @@ const game = {
 
 const Game = () => {
   const [img, setImg] = useState("");
-  // const game = location.state?.data;
-  return (
-    game && (
-      <>
-        {/* {game.description} */}
-        <div className={style.game}>
-          <div className={style.title_game}>
-            <div className={style.grid}>
-              <YouTube
-                className={style.you}
-                videoId="edYCtaNueQY"
-                opts={opts}
-              />
-              <div className="img">
-                <img src={game?.images[0]} alt="" />
-                <img src={game?.images[1]} alt="" />
-                <img src={game?.images[2]} alt="" />
-                <img src={game?.images[3]} alt="" />
-              </div>
-            </div>
-            <div className={style.desc}>
-              <h1>Description:</h1>
-              {game?.description}
-              <div className={style.cat}>
-                <h1>Category:</h1>
-                {game?.category.toUpperCase()}
-              </div>
-            </div>
-          </div>
-        </div>
-      </>
-    )
-  );
-};
+  const location = useLocation() 
+  const { state } = location
+  const data = state && state.data
+  console.log(data);
+  if(!data){
+    return <Navigate to="/"/>
+  }
+return <div>Данние: {JSON.stringify(data)}</div>
+
+  // const game = useGameStore((state) => state.selectedGames);
+  // console.log(game);
+//   return (
+//     game && (
+//       <>
+//         {/* {game.description} */}
+
+//         <div className={style.game}>
+//           <div className={style.back}>
+//             <Link to={"/"}>
+//               <HiBackspace /> BACK{" "}
+//             </Link>
+//           </div>
+//           <div className={style.title_game}>
+//             <div className={style.grid}>
+//               <YouTube
+//                 className={style.you}
+//                 videoId="edYCtaNueQY"
+//                 opts={opts}
+//               />
+//               <div className="img">
+//                 <img src={game?.images[0]} alt="" />
+//                 <img src={game?.images[1]} alt="" />
+//                 <img src={game?.images[2]} alt="" />
+//                 <img src={game?.images[3]} alt="" />
+//               </div>
+//             </div>
+
+//             <div className={style.desc}>
+//               <h1>Description:</h1>
+//               {game?.description}
+//               <div className={style.cat}>
+//                 <h1>Category:</h1>
+//                 {game?.category.toUpperCase()}
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </>
+//     )
+//   );
+ };
 
 export default Game;

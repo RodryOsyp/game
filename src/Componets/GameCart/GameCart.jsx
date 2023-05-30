@@ -7,12 +7,11 @@ import { IoIosTrash } from "react-icons/io";
 
 const GameCart = ({ game }) => {
   const removeGame = useGameStore((state) => state.removeGame)
-  console.log(removeGame);
   return (
     // <div className={style.cart}>
       <div className={style.game}>
         <div className={style.title_game}>
-          <img src={game.img} alt="" />
+          <img src={game.img} alt="" className={style.img} />
           <div className={style.desc}>
             <h1>Description:</h1>
             {game.description}
@@ -23,8 +22,8 @@ const GameCart = ({ game }) => {
           </div>
           <IoIosTrash onClick={()=>removeGame(game.id)} className={style.icon} />
         </div>
-      </div>
-    // </div>
+      
+     </div>
   );
 };
 

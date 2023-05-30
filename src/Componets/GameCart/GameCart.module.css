@@ -15,11 +15,13 @@
 .title_game{
     display: flex;
     border: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 3px;
     /* padding: 25px 10px; */
 }
 .desc{
     color: aliceblue;
-    height: 80px;
+    height: 250px;
     width: 550px;
     position: relative;
     top: 20px;
@@ -34,7 +36,7 @@
     color: red;
     /* padding-left:65px ; */
     position: absolute;
-    right:120px;
+    right:130px;
 }
 .icon:hover{
     cursor: pointer;
